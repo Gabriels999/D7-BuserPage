@@ -31,6 +31,9 @@ header > a {
   color: var(--rosa);
   font-weight: bolder;
 }
+header > a > i {
+  color: var(--rosa);
+}
 .container {
   height: 80vh;
   background-image: url(./img/buser.png);
@@ -102,6 +105,25 @@ footer {
   align-items: center;
   gap: 10px;
 }
-.fa-solid {
+li > .fa-solid {
   color: var(--lightgrey);
+}
+@media screen and (min-width: 426px) {
+  .selection-row > input {
+    width: 260%;
+  }
+  .search-btn {
+    padding: 5% 43.5%;
+  }
+  .rodape {
+    margin-top: 3%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .selection-row > input {
+    width: 126%;
+  }
+  .search-btn {
+    padding: 5% 36.5%;
+  }
 }
