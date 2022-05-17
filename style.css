@@ -90,6 +90,7 @@ form {
   width: 18.85%;
   border-radius: 5px;
   display: flex;
+  justify-content: center;
   gap: 15px;
 }
 .search-btn > i {

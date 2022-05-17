@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="shortcut icon"
+      href="img/assets/favicon-logo.png"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
@@ -33,11 +38,21 @@
           </div>
           <div class="selection-row">
             <label for="">Data de ida</label>
-            <input type="text" placeholder="Ida" />
+            <input
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+              placeholder="Ida"
+            />
           </div>
           <div class="selection-row">
             <label for="">Data de volta</label>
-            <input type="text" placeholder="Volta" />
+            <input
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+              placeholder="Volta"
+            />
           </div>
         </form>
         <a class="search-btn" href=""
