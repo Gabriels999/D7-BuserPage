@@ -60,14 +60,17 @@ header > a > i {
   background-color: #fff;
   height: 65%;
   padding: 5%;
-  margin-top: 5%;
   border-radius: 10px;
+  width: 50%;
+  margin: 5% auto 0;
 }
 form {
   width: 100%;
 }
 .selection-row {
   margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
 }
 .selection-row > label {
   font-size: 14px;
